@@ -118,4 +118,8 @@ Améliorer la reproductibilité technique du projet, le notebook ne contenant pa
 
 - Identifier les bibliothèques utilisées dans le notebook  
 - Créer un fichier `requirements.txt` ou `environment.yml`  
-- Vérifier que l’environnement peut être recréé correctement à partir de ce fichier  
+- Vérifier que l’environnement peut être recréé correctement à partir de ce fichier
+  
+
+### Source 
+Kroupi, E., Yazdani, A., Vesin, J.M., & Ebrahimi, T. (2014). EEG correlates of pleasant and unpleasant odor perception. ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 11(1s), 1–17. [DOI: 10.1145/2637287] 
