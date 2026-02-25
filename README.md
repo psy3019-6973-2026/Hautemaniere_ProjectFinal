@@ -1,4 +1,4 @@
-# Hautemaniere_ProjectFinal
+## Hautemaniere_ProjectFinal
 
 # PROJET – EEG-Based Odor Preference Modeling
 
@@ -18,10 +18,10 @@ Le dataset comprend des enregistrements EEG réalisés chez **cinq participants 
 
 ### Odeurs présentées
 
-- Valériane  
-- Fleur de lotus  
-- Fromage  
-- Eau de rose  
+- Valériane 🌿 
+- Fleur de lotus 🪷  
+- Fromage 🧀
+- Eau de rose 🌹
 
 ### Conditions expérimentales
 
