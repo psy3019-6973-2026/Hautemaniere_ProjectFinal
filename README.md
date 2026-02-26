@@ -6,6 +6,7 @@
 
 Ce projet vise à prédire le niveau de **pleasantness** (caractère agréable ou désagréable) d’odeurs à partir de données EEG.  
 L’objectif est de déterminer si l’activité cérébrale enregistrée pendant l’exposition à différentes odeurs permet d’anticiper les évaluations subjectives données par les participants.
+Pour cela, des features sont extraites des signaux EEG puis utilisées pour entraîner un modèle de machine learning capable de prédire les scores de pleasantness. L’objectif est d’évaluer dans quelle mesure ces modèles peuvent établir un lien fiable entre activité cérébrale et perception subjective des odeurs.
 
 
 ## Données
@@ -59,7 +60,9 @@ Dans ce projet :
 3. Entraînement du modèle  
 4. Validation des performances  
 
+## pourquoi ce projet 
 
+J’ai choisi ce projet parce qu’il me paraissait vraiment intéressant et différent de ce que j’ai déjà fait. Je n’ai jamais travaillé avec des données EEG, donc je trouvais ça motivant de découvrir ce type de données et d’apprendre comment on les analyse. Je trouve aussi très interessant d'essayer de prédire une perception subjective à partir d’un signal cérébral.
 
 ## Tâche 1 – Reproduction
 
