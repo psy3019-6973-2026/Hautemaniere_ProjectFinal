@@ -60,7 +60,7 @@ Dans ce projet :
 3. Entraînement du modèle  
 4. Validation des performances  
 
-## pourquoi ce projet 
+## Pourquoi ce projet 
 
 J’ai choisi ce projet parce qu’il me paraissait vraiment intéressant et différent de ce que j’ai déjà fait. Je n’ai jamais travaillé avec des données EEG, donc je trouvais ça motivant de découvrir ce type de données et d’apprendre comment on les analyse. Je trouve aussi très interessant d'essayer de prédire une perception subjective à partir d’un signal cérébral.
 
