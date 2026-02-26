@@ -58,7 +58,13 @@ Dans ce projet :
 1. Prétraitement du signal EEG  
 2. Extraction des features  
 3. Entraînement du modèle  
-4. Validation des performances  
+4. Validation des performances
+
+## Résultats
+
+- Il existe un léger accord entre les évaluations subjectives des participants et les labels objectifs des odeurs, mais le résultat n’est pas statistiquement significatif.
+- Les performances sont meilleures lorsque les yeux sont ouverts, ce qui suggère que le contexte visuel influence l’évaluation des odeurs.
+- Les modèles de machine learning prédisent mieux la pleasantness objective que les préférences subjectives, qui sont plus variables entre individus.
 
 ## Pourquoi ce projet 
 
