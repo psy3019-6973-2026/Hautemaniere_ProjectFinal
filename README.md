@@ -66,6 +66,8 @@ Dans ce projet :
 - Les performances sont meilleures lorsque les yeux sont ouverts, ce qui suggère que le contexte visuel influence l’évaluation des odeurs.
 - Les modèles de machine learning prédisent mieux la pleasantness objective que les préférences subjectives, qui sont plus variables entre individus.
 
+<img width="576" height="432" alt="image" src="https://raw.githubusercontent.com/xiao1992/XW_brainhackproject/refs/heads/main/figures/ML%20results.png" />
+
 ## Pourquoi ce projet 
 
 J’ai choisi ce projet parce qu’il me paraissait vraiment intéressant et différent de ce que j’ai déjà fait. Je n’ai jamais travaillé avec des données EEG, donc je trouvais ça motivant de découvrir ce type de données et d’apprendre comment on les analyse. Je trouve aussi très interessant d'essayer de prédire une perception subjective à partir d’un signal cérébral.
