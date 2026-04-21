@@ -1,27 +1,7 @@
-# invoke.yaml - Configuration pour automation avec invoke
-
-# Dossiers du projet
 code_dir: code
 notebooks_dir: notebook
 data_dir: Data
-output_data_dir: output_data
+output_dir: outputs
 
-# Fichiers spécifiques
 notebooks:
-  main: notebook/Odor pleasantness V2.ipynb
-  
-# Paramètres EEG
-eeg_config:
-  sampling_rate: 250
-  n_channels: 216
-  frequency_bands:
-    theta: [4, 7]
-    alpha: [8, 13]
-    beta: [14, 29]
-    gamma: [30, 47]
-
-# Paramètres de preprocessing
-preprocessing:
-  highpass_cutoff: 3
-  apply_ica_eyes_open: true
-  apply_car: true
+  main: "notebook/Odor pleasantness V2.ipynb"
