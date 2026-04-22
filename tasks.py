@@ -17,7 +17,7 @@ def setup(c):
 @task
 def run(c):
     """Execute the main notebook."""
-    notebook_path = Path("notebook") / "Odor pleasantness V2.ipynb"
+    notebook_path = Path("notebook") / "Odor_pleasantness.ipynb"
 
     if not notebook_path.exists():
         print(f"Error: notebook not found at {notebook_path}")
@@ -25,7 +25,7 @@ def run(c):
 
     print(f"Running notebook: {notebook_path}")
     c.run(
-        f'jupyter nbconvert --to notebook --execute "{notebook_path}" --output "Odor pleasantness V2.ipynb"',
+        f'jupyter nbconvert --to notebook --execute "{notebook_path}" --output "Odor_pleasantness.ipynb"',
         warn=True
     )
     print("Notebook execution complete.")
