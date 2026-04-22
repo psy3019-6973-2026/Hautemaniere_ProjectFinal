@@ -4,4 +4,4 @@ data_dir: Data
 output_dir: outputs
 
 notebooks:
-  main: "notebook/Odor pleasantness V2.ipynb"
+  main: "notebook/Odor_pleasantness.ipynb"
