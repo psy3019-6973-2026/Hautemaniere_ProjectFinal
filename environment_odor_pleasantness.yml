@@ -1,4 +1,4 @@
-name: Odor_pleasantness
+name: odor_pleasantness
 channels:
   - conda-forge
 dependencies:
@@ -9,8 +9,11 @@ dependencies:
   - matplotlib
   - seaborn
   - scikit-learn
-  - plotly
   - mne
   - xgboost
   - jupyter
   - ipykernel
+  - pip
+  - pip:
+      - plotly
+      - invoke 
