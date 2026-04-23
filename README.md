@@ -120,3 +120,18 @@ Mettre à jour le fichier README afin de décrire clairement le projet et son fo
 - Décrire le pipeline d’analyse
 - Expliquer les différentes tâches réalisées
 - Fournir les instructions pour exécuter le projet
+
+
+## Utilisation de l’IA
+
+Dans le cadre de ce projet, des outils d’intelligence artificielle ont été utilisés afin d’assister le processus de développement. L’ensemble des décisions, de l’implémentation et de la validation des résultats a été réalisé de manière autonome. L’IA a été utilisée comme un outil d’assistance et non comme une solution automatisée.
+
+### Contributions de l’IA
+
+- Aide à la compréhension de certaines parties du code existant  
+- Assistance pour identifier et corriger des erreurs (debugging) 
+- Aide à la compréhension et à la mise en place de l’automatisation avec Invoke  
+- Soutien à la rédaction du README (orthographe, clarté, reformulation)  
+
+
+
