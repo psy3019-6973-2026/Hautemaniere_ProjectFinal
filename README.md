@@ -72,60 +72,61 @@ Dans ce projet :
 
 J’ai choisi ce projet parce qu’il me paraissait vraiment intéressant et différent de ce que j’ai déjà fait. Je n’ai jamais travaillé avec des données EEG, donc je trouvais ça motivant de découvrir ce type de données et d’apprendre comment on les analyse. Je trouve aussi très interessant d'essayer de prédire une perception subjective à partir d’un signal cérébral.
 
-## Tâche 1 – Reproduction
 
-Reproduire un notebook existant à partir d’un environnement vierge et documenter le processus.
+# TÂCHE 1 – REPRODUCTION ET AMÉLIORATION DU PIPELINE
 
-Avant de modifier ou d’améliorer quoi que ce soit, il est important de comprendre précisément comment fonctionne chaque étape du pipeline. Cela permet également d’identifier les dépendances logicielles, les configurations requises et les éventuels bugs ou zones ambiguës dans le code.
+## Partie 1 – Reproduction du notebook original
 
-### Étapes
-
-- Installer l’environnement Python requis  
-- Charger le notebook `Odor pleasantness.ipynb`  
-- Exécuter chaque cellule du notebook dans l’ordre afin de vérifier que le pipeline fonctionne de bout en bout  
-- Vérifier que les étapes de prétraitement EEG, d’extraction des features, d’entraînement et de validation se déroulent sans erreur  
-
-
-
-## Tâche 2 – Documentation et visualisation
-
-Profiter d’avoir parcouru tout le notebook pour le documenter et retravailler le code afin de le rendre plus lisible.
-
-Après avoir exécuté et compris l’ensemble du notebook, celui-ci sera retravaillé pour être plus clair, mieux structuré et plus facile à réutiliser. Une bonne documentation est essentielle pour assurer la reproductibilité du projet.
+Reproduire le notebook original à partir d’un environnement propre afin de valider que le pipeline fonctionne correctement de bout en bout.  
+Cette étape permet de s’assurer que le projet initial est fonctionnel, d’identifier les dépendances nécessaires et de bien comprendre chaque étape avant toute modification.
 
 ### Étapes
 
-- Ajouter une structure claire au notebook (titres par section)
-- Créer un fichier `requirements.txt`
-- Documenter le code :
-  - ajouter des commentaires courts mais informatifs  
-  - expliquer la logique des étapes importantes (ce qui est fait et pourquoi)  
-- Refactoriser certaines cellules si nécessaire :
-  - éviter les répétitions  
-  - regrouper certaines étapes en fonctions simples  
-  - clarifier les noms de variables
+- Charger le notebook original `Odor pleasantness.ipynb`
+- Exécuter toutes les cellules dans l’ordre
+- Vérifier le bon fonctionnement du pipeline complet
+- Identifier les éventuelles erreurs, dépendances manquantes ou incohérences
+- Ajouter les données directement dans le repository afin d’éviter un téléchargement externe et garantir une exécution immédiate du projet
 
 
+## Partie 2 – Création d’un environnement reproductible (.yml)
 
-## Tâche 3 – Analyse
-
-Réaliser une analyse exploratoire des données afin de mieux comprendre la structure des données EEG et la variable cible **pleasantness** avant d’interpréter les résultats du modèle.
-
-Cette étape permet d’examiner la distribution des variables, leur variabilité et leurs relations, et d’identifier d’éventuels déséquilibres ou redondances pouvant influencer la performance du modèle.
+Mettre en place un environnement reproductible afin de permettre à n’importe quel utilisateur d’exécuter le projet dans les mêmes conditions.
 
 ### Étapes
 
-- Calculer les statistiques descriptives de la variable **pleasantness** (moyenne, écart-type, minimum, maximum)  
-- Visualiser la distribution des scores de **pleasantness** à l’aide d’un histogramme  
-- Examiner les statistiques descriptives des features EEG extraites (moyenne, variance, dispersion)  
-- Calculer et visualiser la matrice de corrélation entre les features EEG afin d’identifier d’éventuelles redondances  
-- Analyser la corrélation entre les features EEG et la variable **pleasantness** afin d’identifier les variables potentiellement informatives  
+- Créer un fichier d’environnement Conda (`environment.yml`)
+- Centraliser toutes les dépendances nécessaires
+- S’assurer que le projet peut être exécuté à partir de zéro
 
 
+## Partie 3 – Restructuration du projet
 
-## Tâche bonus – Automatisation 
+Transformer un projet basé uniquement sur un notebook en une structure de projet claire et organisée.
+
+### Étapes
+
+- Créer une arborescence de projet claire :
+  - `code/` : scripts Python
+  - `notebook/` : notebook principal
+  - `outputs/` : résultats
+  - `data/` : données
 
 
+## Partie 4 – Automatisation du pipeline
 
-### Source 
-Kroupi, E., Yazdani, A., Vesin, J.M., & Ebrahimi, T. (2014). EEG correlates of pleasant and unpleasant odor perception. ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 11(1s), 1–17. [DOI: 10.1145/2637287] 
+Mettre en place une exécution automatisée du projet afin d’améliorer la reproductibilité et de limiter les manipulations manuelles.  
+L’objectif est de pouvoir exécuter l’ensemble du pipeline avec une seule commande.
+
+### Étapes
+
+- Ajouter un fichier `tasks.py` contenant des tâches Invoke :
+  - `setup` : installation de l’environnement
+  - `run` : exécution automatique du notebook
+  - `clean` : suppression des outputs
+- Ajouter un fichier `invoke.yaml` pour la configuration
+- Mettre à jour `environment.yml` pour inclure `invoke` comme dépendance
+- Tester l’exécution complète via une commande unique :
+  
+  ```bash
+  invoke run
