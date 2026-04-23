@@ -9,7 +9,7 @@ Ce projet vise à reproduire et améliorer un pipeline EEG permettant de prédir
 Il est basé sur le projet de Xiao (Brainhack) et s’inscrit dans le cadre du cours **PSY3019 – Traitement des données en neurosciences cognitives**.  
 L’objectif principal est de rendre le projet plus reproductible, structuré et compréhensible.
 
----
+
 
 ## Contributions
 
@@ -24,7 +24,7 @@ Contributions principales :
 - Amélioration de la documentation
 - Réécriture des résultats en Markdown
 
----
+
 
 ## Reproduire le projet
 
@@ -109,7 +109,7 @@ Une bonne documentation permet de rendre le projet accessible et compréhensible
 - Clarifier les étapes importantes du pipeline
 - Réécrire les résultats en format Markdown afin de les rendre plus lisibles et structurés
 
----
+
 
 ## Partie 2 – Mise à jour du README
 
