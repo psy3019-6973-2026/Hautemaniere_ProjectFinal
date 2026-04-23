@@ -33,7 +33,7 @@ git clone <repo_url>
 cd Hautemaniere_ProjectFinal
 conda env create -f environment_odor_pleasantness.yml
 conda activate odor_pleasantness
-invoke run
+invoke run  ```
 
 
 # TÂCHE 1 – REPRODUCTION ET AMÉLIORATION DU PIPELINE
