@@ -33,8 +33,8 @@ git clone <repo_url>
 cd Hautemaniere_ProjectFinal
 conda env create -f environment_odor_pleasantness.yml
 conda activate odor_pleasantness
-invoke run  ```
-
+invoke run  
+```
 
 # TÂCHE 1 – REPRODUCTION ET AMÉLIORATION DU PIPELINE
 
@@ -93,3 +93,30 @@ L’objectif est de pouvoir exécuter l’ensemble du pipeline avec une seule co
   
   ```bash
   invoke run
+
+# Tâche 2 – Documentation et clarification
+
+## Partie 1 – Amélioration du notebook
+
+Améliorer la lisibilité et la compréhension du notebook.
+
+Une bonne documentation permet de rendre le projet accessible et compréhensible pour d’autres utilisateurs.
+
+### Étapes
+- Ajouter des titres et sous-sections pour structurer le notebook
+- Ajouter des commentaires simples et explicites dans le code
+- Ajouter des docstrings à chaque fonction
+- Clarifier les étapes importantes du pipeline
+- Réécrire les résultats en format Markdown afin de les rendre plus lisibles et structurés
+
+---
+
+## Partie 2 – Mise à jour du README
+
+Mettre à jour le fichier README afin de décrire clairement le projet et son fonctionnement.
+
+### Étapes
+- Présenter le projet et ses objectifs
+- Décrire le pipeline d’analyse
+- Expliquer les différentes tâches réalisées
+- Fournir les instructions pour exécuter le projet
