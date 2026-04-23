@@ -130,7 +130,8 @@ Dans le cadre de ce projet, des outils d’intelligence artificielle ont été u
 
 - Aide à la compréhension de certaines parties du code existant  
 - Assistance pour identifier et corriger des erreurs (debugging) 
-- Aide à la compréhension et à la mise en place de l’automatisation avec Invoke  
+- Aide à la compréhension et à la mise en place de l’automatisation avec Invoke
+- Aide pour traduction en anglais 
 - Soutien à la rédaction du README (orthographe, clarté, reformulation)  
 
 
