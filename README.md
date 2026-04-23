@@ -29,7 +29,7 @@ Contributions principales :
 ## Reproduire le projet
 
 ```bash
-git clone <repo_url>
+git clone : git@github.com:psy3019-6973-2026/Hautemaniere_ProjectFinal.git
 cd Hautemaniere_ProjectFinal
 conda env create -f environment_odor_pleasantness.yml
 conda activate odor_pleasantness
